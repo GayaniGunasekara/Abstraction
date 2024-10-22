@@ -1,6 +1,7 @@
 
     abstract class Car {
-        abstract void sound();  // Abstract method, no body
+        abstract void sound();
+         // Abstract method, no body
     }
 
     class Benz extends Car {

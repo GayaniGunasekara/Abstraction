@@ -12,7 +12,7 @@
     }
 
     // Subclass Dog extends the abstract class Animal
-    class Dog extends Animal {
+    class Dog {
         // Implementing the abstract method
         public void makeSound() {
             System.out.println("Dog barks");
@@ -20,7 +20,7 @@
     }
 
     // Subclass Cat extends the abstract class Animal
-    class Cat extends Animal {
+    class Cat {
         // Implementing the abstract method
         public void makeSound() {
             System.out.println("Cat meows");
@@ -29,13 +29,6 @@
 
     public class AbstractClassEx {
         public static void main(String[] args) {
-            Animal myDog = new Dog();  // Creating an object of subclass Dog
-            myDog.makeSound();  // Outputs: Dog barks
-            myDog.eat();        // Outputs: This animal is eating
-
-            Animal myCat = new Cat();  // Creating an object of subclass Cat
-            myCat.makeSound();  // Outputs: Cat meows
-            myCat.eat();        // Outputs: This animal is eating
         }
 
 
